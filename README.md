@@ -1,5 +1,4 @@
-# BDAF lab2 
-# Vanity Address Generator
+# BDAF lab2 - Vanity Address Generator
 
 ## Usage
 clone from github
