@@ -2,7 +2,7 @@
 
 clone from github
 ``` 
-git clone [https://github.com/d3or/eth-vanity-gen.git](https://github.com/C1em3nt/BDAF02.git)
+git clone https://github.com/C1em3nt/BDAF02.git
 ```
 Install dependencies
 
