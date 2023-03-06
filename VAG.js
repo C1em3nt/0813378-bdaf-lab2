@@ -48,13 +48,13 @@ r.question('Prefix: ', function (input) {
 
     let wallet = getMatchAddress(prefix)
     let address = wallet.address
-    let private = wallet.privateKey
+    let privateKey = wallet.privateKey
     let mnemonic = wallet.mnemonic
     console.log('Address: '+ address)
-    console.log('PrivateKey: '+ private)
+    console.log('PrivateKey: '+ privateKey)
     console.log('Mnemonic: '+ mnemonic)
 
-    const isValid = bip39.validateMnemonic(mnemonic);
-    console.log(isValid); 
+    const valid = bip39.validateMnemonic(mnemonic);
+    console.log(valid); 
     process.exit(0)
 });
